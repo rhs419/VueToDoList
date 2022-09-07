@@ -7,10 +7,10 @@
 </template>
 
 <script>
-import '@/assets/script';
-import DoneList from './components/DoneList.vue';
-import ToDoList from './components/ToDoList.vue';
-import ToDoInput from "@/components/ToDoInput";
+import '@/../../vite-todolist/src/assets/script';
+import DoneList from '../../vite-todolist/src/components/DoneList.vue';
+import ToDoList from '../../vite-todolist/src/components/ToDoList.vue';
+import ToDoInput from "@/../../vite-todolist/src/components/ToDoInput";
 
 
 export default {
@@ -24,5 +24,5 @@ export default {
 </script>
 
 <style>
-@import '@/assets/style';
+@import '@/../../vite-todolist/src/assets/style';
 </style>
